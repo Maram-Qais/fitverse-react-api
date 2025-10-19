@@ -1,7 +1,8 @@
 # FitVerse
 
 A modern fitness web app built with React + Vite + Tailwind + GSAP, powered by ExerciseDB and YouTube Data APIs for dynamic exercise information and guided tutorials.
-
+ ## Live:
+ fitverse-react-api-7gbu.vercel.app
 
 ## Tech Stack
 
@@ -34,7 +35,7 @@ Vercel – Hosting & CI/CD
 
 ## setup
 
-git clone https://github.com/maram-qais/FitVerse.git
+git clone https://github.com/Maram-Qais/FitVerse-react-api.git
 cd FitVerse
 npm install
 npm run dev
