@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiSearch } from "react-icons/fi";
 import { exerciseOptions, fetchData } from "../api/data";
-import BodyPartSlider from "./bodyPartSlider";
+import BodyPartSlider from "./BodyPartSlider";
 
 const SearchExercise = ({ bodyPart, setBodyPart, setExercise }) => {
   const [search, setSearch] = useState("");
