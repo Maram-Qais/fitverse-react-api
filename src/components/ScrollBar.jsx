@@ -1,5 +1,6 @@
 import React from "react";
-import BodyPartSlider from "./bodyPartSlider";
+import BodyPartSlider from './BodyPartSlider'
+
 
 
 const ScrollBar = ({ data, bodyPart, setBodyPart }) => {
