@@ -1,16 +1,40 @@
-# React + Vite
+# FitVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern fitness web app built with React + Vite + Tailwind + GSAP, powered by ExerciseDB and YouTube Data APIs for dynamic exercise information and guided tutorials.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+React (Vite) – Fast modular frontend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tailwind CSS – Utility-first styling
 
-## Expanding the ESLint configuration
+GSAP – Smooth timeline-based animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router DOM – Page + section navigation
+
+ExerciseDB API – Real-time exercise data
+
+YouTube Search API – Embedded video tutorials
+
+Vercel – Hosting & CI/CD
+
+
+## Key Features
+
+🔍 Search Exercises — Filter by name, body part, or equipment via ExerciseDB
+
+🎥 Video Tutorials — Fetch related YouTube videos dynamically
+
+⚡ GSAP Animations — Hero banner, section transitions, and drop-in effects
+
+📱 Responsive UI — Mobile-friendly design with smooth navigation
+
+🧭 Smart Scroll Nav — Scrolls to page sections using React Router
+
+## setup
+
+git clone https://github.com/maram-qais/FitVerse.git
+cd FitVerse
+npm install
+npm run dev
