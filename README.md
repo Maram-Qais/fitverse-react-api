@@ -2,8 +2,7 @@
 
 A modern fitness web app built with React + Vite + Tailwind + GSAP, powered by ExerciseDB and YouTube Data APIs for dynamic exercise information and guided tutorials.
  ## Live:
- fitverse-react-api-7gbu.vercel.app
-
+ https://fitverse-react-api-7gbu.vercel.app/
 ## Tech Stack
 
 React (Vite) – Fast modular frontend
