@@ -5,16 +5,20 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 border-t border-gray-800 mt-20 py-10">
       <div className="max-w-screen-xl mx-auto px-6 flex flex-col items-center text-center space-y-6">
-        {/* Brand */}
-        <h2 className="text-3xl font-bold text-[#f5a623] tracking-wide drop-shadow-[0_0_15px_rgba(245,166,35,0.5)]">
-          FitVerse
+        <h2 className="text-3xl font-extrabold tracking-tight">
+          <span
+            className="text-[#f5a623] drop-shadow-[0_0_15px_rgba(245,166,35,0.6)]"
+          >
+            Fit
+          </span>
+          <span className="text-gray-100">Verse</span>
         </h2>
+
         <p className="max-w-md text-sm text-gray-400 leading-relaxed">
           Your daily companion for strength, discipline, and motion.  
           Push limits, stay consistent, and build your best version.
         </p>
 
-        {/* Social Icons */}
         <div className="flex gap-6 text-xl mt-2">
           <a
             href="https://github.com"
@@ -40,7 +44,9 @@ const Footer = () => {
           </a>
         </div>
 
-  
+        <p className="text-xs text-gray-500 mt-6">
+          © {new Date().getFullYear()} FitVerse. All rights reserved.
+        </p>
       </div>
     </footer>
   );

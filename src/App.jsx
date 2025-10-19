@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import ExerciseDetails from "./pages/ExerciseDetails";
 
 function App() {
+
   return (
     <BrowserRouter>
       <div className="bg-black min-h-screen text-white flex flex-col">
